@@ -24,7 +24,7 @@ const updateUI = (data) => {
     const iconSrc = `img/icons/${weather.WeatherIcon}.svg`;
     icon.setAttribute('src', iconSrc);
     
-    const timeSrc = weather.IsDayTime ? 'img/day.svg' : 'img/night.svg';
+    const timeSrc = weather.IsDayTime ? 'content/day.svg' : 'content/day.svg';
     time.setAttribute('src', timeSrc);
   
     //remove the d-none class if present
